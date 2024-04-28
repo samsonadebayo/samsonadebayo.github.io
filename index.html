@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sam's Restaurant</title>
+
+	<!-- adding external css file  -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+
+	<!-- header div containing the name of the restaurant and the navigation menu  -->
+	<div class="header">
+		<nav class="nav-bar">
+			<h3>Sam's Restaurant</h3>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#book">Book a table</a></li>
+			</ul>
+		</nav>
+
+		<br/><br/>
+		<div class="top-quote">
+		<p class="nav-talk"> THE BEST PLACE TO KICK OF YOUR DAY</p>
+
+		<span class="order"><a href="#book">Book Now</a></span><span class="span-menu"><a href="#menu">See Menu</a></span>	
+		</div>
+
+	</div>
+
+	<!-- about div -- explains what sam's restuarant is about -->
+	<div class="about" id="about">
+		<h3> About Sam's Restaurant </h3>
+		<p>We specializes in delicious food featuring fresh ingredients and masterful preparation by the culinary team. Whether you’re ordering a multi-course meal or grabbing a drink and pizza at the bar, lively, casual yet upscale atmosphere makes it perfect for dining with friends, family, clients and business associates.</p>
+	</div>
+
+	<!-- experience div  --> 
+	<div class="experience">
+		
+		<div class="ex-single">
+			<p><b>20</b></p>
+			<p>Years of experience</p>
+		</div>
+		<div class="ex-single">
+			<p><b>20,000</b></p>
+			<p>Happy Customer</p>
+		</div>
+		<div class="ex-single">
+			<p><b>50</b></p>
+			<p>Menus</p>
+		</div>
+		<div class="ex-single">
+			<p><b>20</b></p>
+			<p>Staff</p>
+		</div>
+	</div>
+
+	<!-- services div -- lists all services rendered by sam's restuarant -->
+	<div class="service" id="service">
+		<h3> Sam's catering Services</h3><br/>
+		<div class="service-single">
+			<img src="images/b.png"><br/>
+			<h4>Birthday Party</h4>
+			<p>We can make your dream birthday party come true, by providing you with perfect and well cooked meal.</p>
+		</div>
+		<div class="service-single">
+			<img src="images/a.png"><br/>
+			<h4>Business Meetings</h4>
+			<p>We can make your dream business meeting come true, by providing you with perfect and well cooked meal.</p>
+		</div>
+		<div class="service-single">
+			<img src="images/c.png"><br/>
+			<h4>Wedding Party</h4>
+			<p>We can make your dream wedding party come true, by providing you with perfect and well cooked meal.</p>
+		</div>
+	</div>
+
+	<!-- menu div -- shows list of all foods that are available in sam's restaurant -->
+	<div class="menu" id="menu">
+		<h3>Our Menu</h3>
+		<div class="menu-single">
+			<img src="images/breakfast-1.jpg">
+			<p><b>Spag, Plantain and Chicken</b></p>
+			<p><b>#3500</b></p>
+		</div>
+			<div class="menu-single">
+			<img src="images/breakfast-7.jpg">
+			<p><b>Turkey and Vegetable</b></p>
+			<p><b>#3500</b></p>
+		</div>
+			<div class="menu-single">
+			<img src="images/breakfast-2.jpg">
+			<p><b>Beef, Tomatoes and Vegetable</b></p>
+			<p><b>#3500</b></p>
+		</div>
+			<div class="menu-single">
+			<img src="images/breakfast-6.jpg">
+			<p><b>Egg and Toasted Bread</b></p>
+			<p><b>#3500</b></p>
+		</div>
+		<div class="menu-single">
+			<img src="images/breakfast-9.jpg">
+			<p><b>Cake and Milk</b></p>
+			<p><b>#3500</b></p>
+		</div>
+		<div class="menu-single">
+			<img src="images/breakfast-5.jpg">
+			<p><b>Chicken and Vegetable</b></p>
+			<p><b>#3500</b></p>
+		</div>
+		<div class="menu-single">
+			<img src="images/breakfast-4.jpg">
+			<p><b>Egg, Bread and Vegetable</b></p>
+			<p><b>#3500</b></p>
+		</div>
+		<div class="menu-single">
+			<img src="images/breakfast-3.jpg">
+			<p><b>Plantain and Milk</b></p>
+			<p><b>#3500</b></p>
+		</div>
+		<div class="menu-single">
+			<img src="images/breakfast-8.jpg">
+			<p><b>Strawberry and Cereal</b></p>
+			<p><b>#3500</b></p>
+		</div>
+		<div class="menu-single">
+			<img src="images/dinner-5.jpg">
+			<p><b>Noodles and Egg</b></p>
+			<p><b>#3500</b></p>
+		</div>
+	</div>
+
+	<!-- reservation form-- form for booking a table  -->
+	<div class="re-form">
+	<form class="form" id="book" method="post">
+		<h3> Make Reservation</h3>
+		<p>Name:</p>
+		<input type="text" class="name" placeholder="Your Name" required><br/>
+		<p>Email:</p>
+		<input type="email" class="email" placeholder="Your Email" required><br/>
+		<p>Phone:</p>
+		<input type="phone" class="phone" placeholder="Your Phone" required><br/>
+		<p>Date:</p>
+		<input type="date" class="date" placeholder="Date" required><br/>
+		<p>Time:</p>
+		<input type="time" class="time" placeholder="Time" required><br/>
+		<p>No. of seats:</p>
+		<input type="number" class="person" placeholder="Number of persons" required><br/>
+		<input type="submit" class="submit" value="Make a Reservation">
+	</form>
+	<div class="t-img">
+	</div>
+	</div>
+
+	<!-- chef div -- lists all services rendered by sam's restuarant -->
+	<div class="chef">
+		<h3> Our Professional Chefs</h3><br/>
+		<div class="chef-single">
+			<img src="images/bg_6.jpg"><br/>
+			<p><b>Samuel</b></p>
+			<p>Restaurant Owner</p>
+		</div>
+		<div class="chef-single">
+			<img src="images/chef-3.jpg"><br/>
+			<p><b>Samson</b></p>
+			<p>Head Chef</p>
+		</div>
+		<div class="chef-single">
+			<img src="images/chef-1.jpg"><br/>
+			<p><b>Steven</b></p>
+			<p>Chef</p>
+		</div>
+		<div class="chef-single">
+			<img src="images/chef-2.jpg"><br/>
+			<p><b>Oyin Ade</b></p>
+			<p>Chef</p>
+		</div>
+	</div>
+	<!-- customer div -- lists all services rendered by sam's restuarant -->
+	<div class="customer">
+		<h3> Our Happy Customers</h3><br/>
+		<div class="customer-single">
+			<img src="images/person_1.jpg"><br/>
+			<p><b>Solomon</b></p>
+			<p class="tes">A tremendous THANK YOU and job SO VERY WELL DONE executing my Birthday celebration yesterday afternoon. You and your staff were highly organized and effectively delivered on a very tight (and shrinking) timeline, all the while maintaining your cool and focus.</p>
+		</div>
+		<div class="customer-single">
+			<img src="images/person_2.jpg"><br/>
+			<p><b>Michael</b></p>
+			<p class="tes">A tremendous THANK YOU and job SO VERY WELL DONE executing my Business conference yesterday afternoon. You and your staff were highly organized and effectively delivered on a very tight (and shrinking) timeline, all the while maintaining your cool and focus.</p>
+		</div>
+		<div class="customer-single">
+			<img src="images/person_3.jpg"><br/>
+			<p><b>Justin</b></p>
+			<p class="tes">A tremendous THANK YOU and job SO VERY WELL DONE executing my Birthday celebration. You and your staff were highly organized and effectively delivered on a very tight (and shrinking) timeline, all the while maintaining your cool and focus.</p>
+		</div>
+		<div class="customer-single">
+			<img src="images/person_4.jpg"><br/>
+			<p><b>Peter</b></p>
+			<p class="tes">A tremendous THANK YOU and job SO VERY WELL DONE executing my Wedding celebration yesterday afternoon. You and your staff were highly organized and effectively delivered on a very tight (and shrinking) timeline, all the while maintaining your cool and focus.</p>
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<form method="post">
+			<h3>Contact Us</h3>
+			<input type="text" name="name" placeholder="Your Name" required><br/>
+			<input type="email" name="email" placeholder="Your Email" required><br/>
+			<input type="phone" name="phone" placeholder="Phone" required><br/>
+			<textarea placeholder="Your Message" required></textarea> <br/>
+			<input type="submit" value="send" class="submit">
+
+		</form>
+	</div>
+
+	<!-- bottom div  -->
+	<div class="bottom">
+		
+<!-- 		<div class="single-bottom">
+			<h3>Appetizer</h3>
+			<p>ajhshshbbcbchdddjsis</p>
+		</div> -->
+		<div class="single-bottom">
+			<h3>Open Hours</h3>
+			<p>Monday - Sunday  9:00am - 10pm</p>
+		</div>
+		<div class="single-bottom">
+		<!-- 	<h3>News Letter</h3>
+			<p>ajhshshbbcbchdddjsis</p> --><br/>
+			<form method="post">
+				<input type="email" placeholder="Enter email"><br/>
+				<input type="submit" class="submit" value="subscribe to newsletter">
+			</form>
+		</div>
+		<div class="single-bottom">
+			<p>565 Albany Ave, Amityville, New York(NY), 11701</p>
+		</div>
+		<div class="single-bottom">
+			<p><i> &copy; Sam's Restaurant 2023</i></p>
+		</div>
+	</div>
+
+</body>
+</html>

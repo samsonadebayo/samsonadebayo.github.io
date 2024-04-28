@@ -1,0 +1,849 @@
+/*. is used for a tag with a class, while # is used for a tag with an id*/
+
+.header {
+	width: 100%;
+    margin: auto;
+    height: 940px;
+	padding: 3px;
+    background: linear-gradient(rgba(0,0,0, 0.5),
+	rgba(0,0,0, 0.5)), url('images/bg_2.jpg');
+	background-size: cover;
+}
+
+.nav-bar{
+	width: 98%;
+/*	background: transparent;*/
+	position: fixed;
+	background-color: rgb(12, 12, 12,0.5);
+	margin-left: -3px;
+	border-radius: 12px;
+
+}
+
+.nav-bar h3{
+	float: left;
+	color: white;
+	margin: 3px;
+	padding: 3px;
+	font-size: 35px;
+	font-family: cursive;
+}
+
+.nav-bar ul{
+	float: right;
+	display: block;
+}
+
+.nav-bar ul li{
+	display: inline-block;
+	padding: 4px;
+}
+
+.nav-bar ul li:hover{
+
+	background-color: orange;
+	padding: 8px;
+	border-radius: 5px;
+}
+.nav-bar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 3px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.top-quote{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	margin-top: 350px;
+}
+.top-quote p {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.top-quote span{
+
+	padding: 4px;
+	margin: 4px;
+}
+
+.top-quote span a {
+/*	font-weight: bold;*/
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.top-quote .order{
+	background-color: orange;
+	padding: 18px;
+	border-radius: 5px;
+}
+
+.top-quote .order:hover{
+	background-color: transparent;
+	padding: 18px;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+
+.top-quote .order a:hover{
+	color: orange;
+	font-weight: bold;
+}
+
+.top-quote .span-menu:hover{
+	background-color: transparent;
+	padding: 18px;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+
+.top-quote .span-menu a:hover{
+	color: orange;
+	font-weight: bold;
+}
+
+.top-quote .span-menu{
+	background-color: transparent;
+	padding: 18px;
+	border-radius: 5px;
+	border: 1px white solid;
+}
+
+.about{
+	width: 60%;
+	padding: 8px;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.about h3{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;
+}
+
+.about p{
+	font-family: sans-serif;
+	color: gray;
+}
+
+.experience{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	text-align: center;
+	background-image: url('images/bg_4.jpg');
+	background-size: cover;
+	margin-left: -5px;
+
+}
+
+.ex-single{
+	width: 200px;
+	margin: 10px;
+	padding: 20px;
+	display: inline-block;
+
+}
+
+.service{
+	width: 90%;
+	padding: 4px;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.service h3 {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;
+}
+
+.service-single{
+	width: 350px;
+	height: 300px;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+
+.service-single img{
+	width: 130px;
+	height: 130px;
+}
+
+.service-single p {
+	font-family: sans-serif;
+/*	color: gray;*/
+}
+
+.menu{
+	width: 98%;
+	margin: auto;
+	padding: 8px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.menu h3 {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;	
+}
+
+.menu-single{
+
+	width: 300px;
+	padding: 3px;
+	margin: 2px;
+	text-align: center;
+	display: inline-block;
+/*	border: 1px gray solid;*/
+}
+
+.menu-single:hover{
+
+	background-color: orange;
+	padding: 3px;
+	border-radius: 5px;
+}
+.menu-single img{
+	margin-top: 5px;
+	width: 150px;
+	height: 140px;
+	border-radius: 20%;
+
+}
+
+.re-form{
+	margin-top: 70px;
+	width: 98%;
+	margin: auto;
+	padding: 10px;
+	background-color: whitesmoke;
+	height: 550px;
+	border-radius: 12px;
+}
+
+.re-form .form{
+	float: left;
+	margin-left: 15px;
+	width: 500px;
+	padding: 8px;
+}
+.re-form .form h3{ 
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;
+}
+.re-form .form p{
+	color: black;
+	font-weight: bold;
+	text-align: justify;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+}
+.name, .email, .phone, .date, .time, .number,.person{
+	padding: 10px;
+	width: 300px;
+	margin: 3px;
+}
+.submit{
+	padding: 10px;
+	border: transparent;
+	border-radius: 5px;
+	background-color: orange;
+	margin-top: 5px;
+}
+.re-form .t-img{
+	float: right;
+	width: 1000px;
+	height: 500px;
+	background-image: url('images/insta-2.jpg');
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.chef{
+	width: 90%;
+	padding: 4px;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+}
+.chef h3 {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;
+}
+.chef-single{
+	width: 350px;
+	height: 300px;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+
+.chef-single img{
+	width: 300px;
+	height: 270px;
+}
+
+.chef-single p {
+	font-family: sans-serif;
+/*	color: gray;*/
+}
+
+.customer{
+	width: 100%;
+	padding: 4px;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+	background-color: whitesmoke;
+}
+.customer h3 {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;
+}
+.customer-single{
+	width: 300px;
+	height: 220px;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+
+.customer-single img{
+	width: 150px;
+	height: 150px;
+	border-radius: 45px;
+}
+
+.customer-single p {
+	font-family: sans-serif;
+/*	color: gray;*/
+}
+
+.customer-single .tes{
+	color: gray;
+}
+.contact{
+
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.contact form{
+
+	width: 80%;
+	margin: auto;
+
+}
+
+.contact form h3{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;
+	color: orange;
+}
+.contact form input{
+
+	width: 50%;
+	padding: 10px;
+	margin: 4px;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	border-bottom: 2px solid black;
+}
+.contact form textarea{
+
+	width: 50%;
+	padding: 10px;
+	margin: 4px;
+	border: 2px solid black;
+	height: 250px;
+}
+.contact form .submit{
+
+	width: 120px;
+	padding: 13px;
+	color: white;
+	font-weight: bolder;
+	font-size: 16px;
+	border: transparent;
+}
+
+.bottom{
+
+	width: 100%;
+	background-color: black;
+/*	text-align: center;*/
+	color: white;
+	margin-left: -8px;
+	margin-bottom: -20px;
+	padding: 5px;
+}
+
+.single-bottom{
+	width: 410px;
+	margin: 10px;
+	display: inline-block;
+	padding: 3px;
+
+
+}
+
+.single-bottom p{
+	color: gray;
+}
+
+.single-bottom form{
+	width: 90%;
+}
+
+.single-bottom form input{
+	width: 200px;
+	padding: 10px;
+}
+
+.single-bottom form .submit{
+
+	width: 200px;
+	font-size: 16px;
+	padding: 10px;
+	font-weight: bold;
+	background-color: orange;
+	cursor: pointer;
+}
+
+.single-bottom p {
+	word-break: break-all;
+
+}
+.single-bottom p i {
+	color: white;
+}
+@media(max-width:1600px){
+
+	.re-form{
+		margin-top: 70px;
+		width: 98%;
+		margin: auto;
+		padding: 10px;
+		background-color: whitesmoke;
+		height: 550px;
+	}
+
+	.re-form .form{
+		float: left;
+		margin-left: 15px;
+		width: 340px;
+		padding: 8px;
+		display: inline-block;
+	}
+	.re-form .t-img{
+		float: right;
+		width: 800px;
+		height: 500px;
+		background-image: url('images/insta-2.jpg');
+		background-size: cover;
+		margin-top: 40px;
+		display: inline-block;
+		margin-left: 80px;
+	}
+
+	.bottom{
+		text-align: center;
+	}
+
+
+}
+
+@media(max-width:1400px){
+
+	.contact{
+
+		width: 60%;
+		margin: auto;
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.contact form{
+
+		width: 80%;
+		margin: auto;
+
+	}
+
+	.contact form h3{
+		font-family:'Times New Roman', Times, serif;
+		font-size: 35px;
+		color: orange;
+	}
+	.contact form input{
+
+		width: 65%;
+		padding: 10px;
+		margin: 4px;
+		border-top: transparent;
+		border-left: transparent;
+		border-right: transparent;
+		border-bottom: 2px solid black;
+	}
+	.contact form textarea{
+
+		width: 65%;
+		padding: 10px;
+		margin: 4px;
+		border: 2px solid black;
+		height: 250px;
+	}
+}
+
+@media(max-width:1300px){
+
+	.re-form{
+		margin-top: 70px;
+		width: 98%;
+		margin: auto;
+		padding: 10px;
+		background-color: whitesmoke;
+		height: 550px;
+	}
+
+	.re-form .form{
+		float: left;
+		margin-left: 15px;
+		width: 340px;
+		padding: 8px;
+		display: inline-block;
+	}
+	.re-form .t-img{
+		float: right;
+		width: 620px;
+		height: 500px;
+		background-image: url('images/insta-2.jpg');
+		background-size: cover;
+		margin-top: 40px;
+		display: inline-block;
+		margin-left: 80px;
+	}
+
+
+
+
+}
+
+@media(max-width:1200px){
+
+	.re-form{
+		margin-top: 70px;
+		width: 98%;
+		margin: auto;
+		padding: 10px;
+		background-color: whitesmoke;
+		height: 550px;
+	}
+
+	.re-form .form{
+		float: left;
+		margin-left: 15px;
+		width: 340px;
+		padding: 8px;
+		display: inline-block;
+	}
+	.re-form .t-img{
+		float: right;
+		width: 500px;
+		height: 500px;
+		background-image: url('images/insta-2.jpg');
+		background-size: cover;
+		margin-top: 40px;
+		display: inline-block;
+		margin-left: 80px;
+	}
+
+
+}
+
+@media(max-width:1135px){
+	.single-bottom{
+		width: 320px;
+		margin: 10px;
+		display: inline-block;
+		padding: 3px;
+	}		
+}
+
+@media(max-width:1060px){
+	.bottom{
+		text-align: center;
+	}
+
+}
+
+
+@media(max-width:1000px){
+
+	.header {
+		width: 99%;
+	    margin: auto;
+	    height: 750px;
+		padding: 3px;
+	    background: linear-gradient(rgba(0,0,0, 0.5),
+		rgba(0,0,0, 0.5)), url('images/bg_2.jpg');
+		background-size: cover;
+	}
+	.nav-bar{
+		margin-left: -10px;
+	}
+	.nav-bar h3{
+		margin: 3px;
+		padding: 3px;
+		font-size: 23px;
+		font-family: cursive;
+
+	}
+	.top-quote{
+		margin-top: 250px;
+	}
+	.top-quote p {
+		font-size: 25px;
+	}
+	.top-quote span a {
+	/*	font-weight: bold;*/
+		text-decoration: none;
+		color: white;
+		font-size: 14px;
+	}
+	.top-quote .order{
+		padding: 10px;
+	}
+	.top-quote .span-menu{
+		padding: 10px;
+	}
+	.re-form{
+		margin-top: 70px;
+		width: 98%;
+		margin: auto;
+		padding: 10px;
+		background-color: whitesmoke;
+		height: auto;
+	}
+
+	.re-form .form{
+		float: none;
+		margin-left: 15px;
+		width: 340px;
+		padding: 8px;
+		display: inline-block;
+	}
+	.re-form .t-img{
+		float: none;
+		width: 400px;
+		height: 500px;
+		background-image: url('images/insta-2.jpg');
+		background-size: cover;
+		margin-top: 40px;
+		display: inline-block;
+		margin-left: 80px;
+	}
+	.contact{
+
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.contact form{
+
+		width: 80%;
+		margin: auto;
+
+	}
+
+	.contact form h3{
+		font-family:'Times New Roman', Times, serif;
+		font-size: 35px;
+		color: orange;
+	}
+	.contact form input{
+
+		width: 80%;
+		padding: 10px;
+		margin: 4px;
+		border-top: transparent;
+		border-left: transparent;
+		border-right: transparent;
+		border-bottom: 2px solid black;
+	}
+	.contact form textarea{
+
+		width: 80%;
+		padding: 10px;
+		margin: 4px;
+		border: 2px solid black;
+		height: 250px;
+	}
+
+}
+
+@media(max-width:950px){
+
+	.re-form{
+		margin-top: 70px;
+		width: 98%;
+		margin: auto;
+		padding: 10px;
+		background-color: rgb(255, 168, 7);
+		height: auto;
+		text-align: center;
+		margin-left: -5px;
+		border-radius: 12px;
+	}
+
+	.re-form .form{
+		float: none;
+		margin-left: 15px;
+		width: 450px;
+		padding: 8px;
+		display: inline-block;
+	}
+	.re-form .form h3{
+		color: white;
+	}
+	.name, .email, .phone, .date, .time, .number,.person{
+		padding: 10px;
+		width: 90%;
+		margin: 3px;
+	}
+	.re-form .form p{
+		color: white;
+		font-weight: bold;
+		text-align: justify;
+		padding: 0px;
+		margin: 0px;
+		margin-left: 10px;
+	}
+	.re-form .t-img{
+		display: none;
+		float: none;
+		width: 800px;
+		height: 500px;
+		background-image: url('images/insta-2.jpg');
+		background-size: cover;
+		margin-top: 40px;
+/*		display: inline-block;*/
+		margin-left: -20px;
+	}
+
+	.submit{
+		background-color: white;
+		cursor: pointer;
+	}
+
+
+}
+
+@media(max-width:800px){
+
+	.nav-bar{
+		height: 55px;
+		text-align: center;
+		margin-left: -10px;
+		width: 97%;
+	}
+	.nav-bar ul li a {
+		font-size: 12px;
+
+	}
+	.nav-bar h3{
+		float: left;
+		font-family: cursive;
+		display: none;
+	}
+
+	.nav-bar ul{
+		float: left;
+		display: block;
+		margin-left: 90px;
+	}
+}
+
+@media(max-width:700px){
+
+	.header {
+		width: 99%;
+	    margin: auto;
+	    height: 600px;
+		padding: 3px;
+	    background: linear-gradient(rgba(0,0,0, 0.5),
+		rgba(0,0,0, 0.5)), url('images/bg_2.jpg');
+		background-size: cover;
+	}
+	.re-form .form{
+		float: none;
+		margin-left: 15px;
+		width: 350px;
+		padding: 8px;
+		display: inline-block;
+	}
+
+	
+}
+
+@media(max-width:600px){
+	.nav-bar ul{
+		float: left;
+		display: block;
+		margin-left: 30px;
+	}
+}
+
+@media(max-width:550px){
+	.nav-bar ul{
+		float: left;
+		display: block;
+		margin-left: 0;
+	}
+	.nav-bar ul li a {
+		font-size: 11px;
+
+	}
+	.nav-bar ul li:hover{
+
+		background-color: orange;
+		padding: 3px;
+		border-radius: 5px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
